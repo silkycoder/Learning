@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: roboto;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: white; */
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.gola{
+    height: 22px;
+    width: 22px;
+    background-color: black;
+    border-radius: 50%;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+#nav-part2 h4{
+    font-size: 16x;
+    font-weight: 600;
+}
+#nav-part2 h4 span{
+    color: rgb(145, 145, 161);
+    margin-left: 25px;
+}
+#nav2{
+    height: 70px;
+    width: 100%;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    gap: 50px;
+}
+#nav2 h3{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#content{
+    height: calc(100% - 150px);
+    width: 100%;
+    /* background: aquamarine; */
+}
+#text-content{
+    height: 40%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#text-content::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+   
+}
+#text-content::-webkit-scrollbar-thumb{
+    background: orangered;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 60%;
+    /* background-color: red;    */
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem h1{
+    font-size: 100px;
+    font-weight: 300;
+}
+#image-content{
+    height: 60%;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    overflow-x: auto;
+}
+#image-content::-webkit-scrollbar{
+    display: none;
+}
+#image-content img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: pink; */
+    object-fit: cover;
+}

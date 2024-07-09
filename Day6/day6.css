@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* //Pseudo_elements
+
+p::before{
+    content: '<';
+}
+
+p::after{
+    content: '<';
+} */
+
+/* p{
+    width: fit-content;
+    position: relative;
+}
+p::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    position:absolute;
+    top: 100%;
+    background-color: red;
+    color: blue;
+} */
+
+/* h1::first-line{
+    color: pink;
+
+} */
+
+/* h1::first-letter{
+    font-size: 120px;
+} */
+
+/* h1::selection{
+    color: green;
+} */
+
+
+/* PSEUDO CLASSES */
+/* 
+h1:hover{
+    color: grey;
+} */
+
+/* button:active{
+    background-color: purple;
+} */
+
+/* 
+input:focus{
+    background-color: pink;
+} */
+
+/* p:nth-child(2n){
+    color: pink;
+} */
